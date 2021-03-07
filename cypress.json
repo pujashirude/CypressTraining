@@ -1,0 +1,12 @@
+{
+    "watchForFileChanges": false,
+
+    "reporter" : "cypress-mochawesome-reporter",
+
+    "baseUrl" :"https://reqres.in/api",
+
+    "projectId": "t7set2",
+    "experimentalStudio": true
+}
+
+

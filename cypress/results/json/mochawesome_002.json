@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-06T09:53:39.761Z",
+    "end": "2021-03-06T09:53:42.480Z",
+    "duration": 2719,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e6820859-5b22-47ff-9e66-bd1405faa11f",
+      "title": "",
+      "fullFile": "cypress\\integration\\login.ts",
+      "file": "cypress\\integration\\login.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bf770b61-307b-4219-ad6a-3bd27faa44f4",
+          "title": "All login tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login test - invalid cred",
+              "fullTitle": "All login tests login test - invalid cred",
+              "timedOut": null,
+              "duration": 916,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginWithInValidCredentials('abc', '123');\n// loginPage.enterUsername('test')\n// loginPage.enterPassword('test')\n// loginPage.clickLogin()\n// cy.visit('https://trytestingthis.netlify.app/')\n// cy.get('#uname').type('test')\n// cy.get('#pwd').type('test')\n// cy.get('[type=\"submit\"]').click()\n// cy.contains('Login Successful')",
+              "err": {},
+              "uuid": "ae989e26-d768-45d5-b7cf-f3334e9df06c",
+              "parentUUID": "bf770b61-307b-4219-ad6a-3bd27faa44f4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ae989e26-d768-45d5-b7cf-f3334e9df06c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 916,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
